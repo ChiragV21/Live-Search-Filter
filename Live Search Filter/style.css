@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    overflow: hidden;
+    background-color: black;
+}
+
+.active-class{
+    padding: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    float: left;
+}
+
+.searchbar{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.searchbar input{
+    margin: 30px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
